@@ -1,0 +1,40 @@
+{
+  "name": "4-1_try-catch",
+  "version": "1.0.0",
+  "description": "4_lesson 1_task",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "live-server src",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrvotum/4-1_Try-catch.git"
+  },
+  "keywords": [
+    "Netology"
+  ],
+  "author": "Vladimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrvotum/4-1_Try-catch/issues"
+  },
+  "homepage": "https://github.com/mrvotum/4-1_Try-catch#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^23.6.0",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5"
+  }
+}
