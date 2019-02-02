@@ -1,16 +1,6 @@
+import convertToNumber from './fun-convertToNumber.js';
+
 const shoppingCount = '10';
-
-export default function convertToNumber(shoppingCount) {
-  const shoppingCountCon = Number(shoppingCount);
-
-  if (isNaN(shoppingCountCon) === true) {
-    throw (shoppingCountCon);
-  }
-
-  console.log(shoppingCount);
-
-  return shoppingCountCon;
-}
 
 try {
   convertToNumber(shoppingCount);
