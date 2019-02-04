@@ -1,4 +1,4 @@
-import convertToNumber from '../js/fun-convertToNumber';
+import convertToNumber from '../js/convertToNumber';
 
 test('Base 10', () => {
   const input = '10';
@@ -17,7 +17,7 @@ test('Different letters', () => {
 });
 
 test('Nuber base 16', () => {
-  const input = 'Десять';
+  const input = '0x76';
 
   const expected = 'NaN'; // ожидает
   const received = convertToNumber(input); // получает
