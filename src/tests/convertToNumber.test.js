@@ -11,14 +11,13 @@ test('Base 10', () => {
 test('Different letters', () => {
   const input = 'Десять';
 
-  const received = convertToNumber(input); // получает
-  expect(received).throw(); // сравнивает
+  const received = () => convertToNumber(input); // получает ошибку
+  expect(received).toThrow(); // ждёт ошибку
 });
 
 test('Nuber base 16', () => {
   const input = '0x76';
 
-  const expected = 'NaN'; // ожидает
-  const received = convertToNumber(input); // получает
-  expect(received).toThrow(); // сравнивает
+  const received = () => convertToNumber(input); // получает ошибку
+  expect(received).toThrow(); // ждёт ошибку
 });
